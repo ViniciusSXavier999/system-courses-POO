@@ -16,6 +16,15 @@ public class Main {
 		curso2.setDescricao("Descrição Curso Php");
 		curso2.setCargaHoraria(12);
 		
+		/*Aqui vamos aplicar o conceito de polimorfismo, eu não posso criar um conteudo 
+		 * porque ele é uma classe abstract, mas eu posso instanciar um objeto curso a partir
+		 * da minha classe conteudo*/
+		
+		/*Basicamente o que estou dizendo aqui é que tudo que tem em conteudo tem em curso
+		 * mas nem tudo que tem em curso tem em conteudo*/
+		
+		// Conteudo conteudo = new Curso();
+		
 		Mentoria mentoria1 = new Mentoria();
 		mentoria1.setTitulo("Mentoria de java");
 		mentoria1.setDescricao("Descrição mentoria java");
